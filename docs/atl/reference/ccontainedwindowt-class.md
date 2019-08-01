@@ -102,7 +102,7 @@ The constructor initializes data members.
 
 ```
 CContainedWindowT(
-    LPTSTR lpszClassName,
+    LPCTSTR lpszClassName,
     CMessageMap* pObject,
     DWORD dwMsgMapID = 0);
 
